@@ -1,0 +1,27 @@
+<head><title>Atividade</title></head>
+<body>
+<hr>      
+    <p>
+        Como declarar uma array com números? 
+        <h4 id="display_number_array"> 
+        </h4>
+    </p>
+    <hr>
+    <p>
+        Como encontrar o maior valor da array? 
+        <h4 id="display_maximum_number"> 
+        </h4>
+    </p>
+<hr>
+<script>
+ var numbers = ["45", "4", "9", "16", "25"];
+    console.log(numbers);
+    document.getElementById("display_number_array").innerHTML = numbers;
+    console.log(numbers);
+var maximumNumber = Math.max.apply(Math, numbers);
+    console.log(maximumNumber);
+    document.getElementById("display_maximum_number").innerHTML = maximumNumber;
+ 
+</script>
+</body>
+</html>
